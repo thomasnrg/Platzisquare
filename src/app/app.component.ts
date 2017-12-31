@@ -15,6 +15,8 @@ export class AppComponent {
     {active: true, nombre: 'Negocio de Muebles'},
     {active: false, nombre: 'Negocio de Desarrollo web'}
   ]
+  lat:number = 4.8637461;
+  lng:number = -75.0190383;
 
 
   constructor() {

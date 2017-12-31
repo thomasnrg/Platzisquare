@@ -10,6 +10,8 @@ export class AppComponent {
   a = 10;
   b = 25;
   listo = false;
+  nombre:string = '';
+  apellido:string = '';
 
   constructor() {
     setTimeout(() => {
@@ -18,6 +20,6 @@ export class AppComponent {
   }
 
   hacerAlgo() {
-    alert('hiciste click')
+    alert(`Bienvenido ${this.nombre} ${this.apellido}`)
   }
 }
